@@ -24,7 +24,6 @@ jobs:
 
       - name: Run Linter
         run: |
-          /*jshint esversion: 8 */
           echo "Running JSHint on backend files..."
           jshint ./giftlink-backend/app.js
           jshint ./giftlink-backend/auth.js

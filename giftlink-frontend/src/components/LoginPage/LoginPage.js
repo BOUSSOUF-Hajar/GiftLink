@@ -15,7 +15,7 @@ function LoginPage() {
     const [incorrect, setIncorrect] = useState('');
     //Step 1 - Task 5
     const navigate = useNavigate();
-    const bearerToken = sessionStorage.getItem('bearer-token');
+    //const bearerToken = sessionStorage.getItem('bearer-token');
     const { setIsLoggedIn } = useAppContext();
 
     //Step 1 - Task 6
