@@ -3,7 +3,7 @@ const router = express.Router();
 const connectToDatabase = require('../models/db');
 
 router.get('/', async (req, res) => {
-    logger.info('/ called');
+    //logger.info('/ called');
     try {
         // Task 1: Connect to MongoDB and store connection to db constant
         const db = await connectToDatabase();
